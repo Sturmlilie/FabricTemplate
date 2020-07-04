@@ -1,0 +1,20 @@
+# Here is everything that will be used for customizing
+# the mod directory, including file names/paths.
+# After you're done, delete this file and init_templates.sh;
+# and if you want nuke .git and "git init" to start
+# with a fresh first commit.
+
+# WHAT TO DO TO REGENERATE A TEMPLATE
+# $ rm -r src
+# $ git checkout src gradle.properties
+# Now you can run init_template.sh again
+
+MODID='fabtemp'
+PACKAGE='lol.template'
+TOPDIR='FabricTemplate'
+VERSION='0.0.1'
+FULL_NAME='Fabric Template'
+AUTHOR='Sturmlilie'
+DESC='A mod template for fabric that is less annoying to setup.'
+SOURCES='https://github.com/Sturmlilie/FabricTemplate'
+HP='https://github.com/Sturmlilie/FabricTemplate'
